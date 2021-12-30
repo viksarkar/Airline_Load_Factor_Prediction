@@ -2,7 +2,7 @@
 ML App to predict the load factor of flights on a specified route
 
 The data used for this project will be T100 data from the Bureau of Transportation Statistics which can be downloaded [here](https://www.transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=GDM&QO_fu146_anzr=Nv4%20Pn44vr45).
-Given the effect of the COVID-19 pandemic on air travel, the data used is from 2017 through 2019. 
+Given the effect of the COVID-19 pandemic on air travel, the data used is from 2019 instead of the latest available. 
 
 The data used is restricted to the following: 
 
