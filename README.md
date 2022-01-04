@@ -14,6 +14,8 @@ The data used is restricted to the following:
     6. The distance covered
     7. The number of departures scheduled
 
+Flights are limited to those that are labeled as regularly scheduled passenger-carrying flights. Airports are limited to those that service at least 200000 passengers per year and carriers are limited to those that carry at least 100000 passengers a year.
+
 One hot encoding is used for categorical variables 1, 2, 3 and 5 above.The load factor is calculated as the ratio of #passengers to #available seats. This is expressed as a percentage used as the target for model training.
 
 The model will be a Random Forest Regressor. A grid search was used to tune the hyper parameters (cross validated 3 times) and the model is then created. 
